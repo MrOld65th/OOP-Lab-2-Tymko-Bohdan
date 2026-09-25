@@ -6,8 +6,14 @@ N№24(N№5) Створити клас Triangle для представленн
 прямокутний).
 */ 
 #include <iostream>
+#include "Triangle.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Triangle A;
+    A.Init(0, 0, 0, 0, 0, 0);
+    A.Read();
+    A.Display();
+    A.toString();
 }
